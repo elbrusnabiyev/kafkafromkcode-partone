@@ -2,8 +2,11 @@ package main
 
 import (
 	"fmt"
-	"partone/internal/consumer"
-	"partone/internal/producer"
+	// "partone/internal/consumer"
+	// "partone/internal/producer"
+	"github.com/elbrusnabiyev/kafkafromkcode-partone/internal/consumer"
+	"github.com/elbrusnabiyev/kafkafromkcode-partone/internal/producer"
+
 	"time"
 )
 
