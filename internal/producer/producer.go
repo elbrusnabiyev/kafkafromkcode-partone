@@ -2,7 +2,9 @@ package producer
 
 import (
 	"fmt"
-	"partone/internal/shared"
+	// "partone/internal/shared"
+
+	"github.com/elbrusnabiyev/kafkafromkcode-partone/internal/shared"
 
 	"github.com/confluentinc/confluent-kafka-go/v2/kafka"
 )
