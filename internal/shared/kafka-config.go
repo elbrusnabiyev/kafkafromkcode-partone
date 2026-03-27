@@ -19,7 +19,7 @@ func NewKafkaConfig() *KafkaConfig {
 	return &KafkaConfig{
 		PartitionAssignStrategy: CooperativeStickyStrategy,
 		DefaultTopic:            "local_topic_sticky1",
-		ConsumerGroup:           "local_cg1",
+		ConsumerGroup:           "local_cg",
 		Host:                    "localhost",
 		NumPartitions:           4,
 	}
